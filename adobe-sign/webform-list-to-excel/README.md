@@ -1,6 +1,7 @@
 # webform-list-to-excel
 This flow uses Adobe Sign connector and an HTTP connector to make a call to the Adobe Sign API to get the list of Web Forms and write it to an Excel spreadsheet.
 
+![Preview of Flow diagram](../images/../../resources/images/flow_view.png)
 ## Installation
 1. Go to [Microsoft Power Automate](https://flow.microsoft.com) and click on **My flows**.
 2. Click on **Import**.
