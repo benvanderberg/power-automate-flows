@@ -1,0 +1,277 @@
+{
+    "type": "object",
+    "properties": {
+        "pages": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "boxes": {
+                        "type": "object",
+                        "properties": {
+                            "CropBox": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                }
+                            },
+                            "MediaBox": {
+                                "type": "array",
+                                "items": {
+                                    "type": "number"
+                                }
+                            }
+                        }
+                    },
+                    "page_number": {
+                        "type": "number"
+                    },
+                    "rotation": {
+                        "type": "number"
+                    },
+                    "width": {
+                        "type": "number"
+                    },
+                    "height": {
+                        "type": "number"
+                    }
+                },
+                "required": []
+            }
+        },
+        "extended_metadata": {
+            "type": "object",
+            "properties": {
+                "is_encrypted": {
+                    "type": "boolean"
+                },
+                "is_certified": {
+                    "type": "boolean"
+                },
+                "ID_permanent": {
+                    "type": "string"
+                },
+                "language": {
+                    "type": "string"
+                },
+                "pdf_version": {
+                    "type": "string"
+                },
+                "ID_instance": {
+                    "type": "string"
+                },
+                "has_acroform": {
+                    "type": "boolean"
+                },
+                "is_digitally_signed": {
+                    "type": "boolean"
+                },
+                "has_embedded_files": {
+                    "type": "boolean"
+                },
+                "is_XFA": {
+                    "type": "boolean"
+                },
+                "pdfa_compliance_level": {
+                    "type": "string"
+                },
+                "pdfua_compliance_level": {
+                    "type": "string"
+                },
+                "page_count": {
+                    "type": "number"
+                }
+            }
+        },
+        "elements": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "Path": {
+                        "type": "string"
+                    },
+                    "HasClip": {
+                        "type": "boolean"
+                    },
+                    "Bounds": {
+                        "type": "array"
+                    },
+                    "TextSize": {
+                        "type": "number"
+                    },
+                    "Lang": {
+                        "type": "string"
+                    },
+                    "Page": {
+                        "type": "number"
+                    },
+                    "Text": {
+                        "type": "string"
+                    },
+                    "attributes": {
+                        "type": "object",
+                        "properties": {
+                            "LineHeight": {
+                                "type": "number"
+                            },
+                            "SpaceAfter": {
+                                "type": "number"
+                            }
+                        }
+                    },
+                    "CharBounds": {
+                        "type": "array",
+                        "items": {
+                            "type": "array"
+                        }
+                    },
+                    "Font": {
+                        "type": "object",
+                        "properties": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "weight": {
+                                "type": "number"
+                            },
+                            "alt_family_name": {
+                                "type": "string"
+                            },
+                            "monospaced": {
+                                "type": "boolean"
+                            },
+                            "encoding": {
+                                "type": "string"
+                            },
+                            "embedded": {
+                                "type": "boolean"
+                            },
+                            "family_name": {
+                                "type": "string"
+                            },
+                            "font_type": {
+                                "type": "string"
+                            },
+                            "italic": {
+                                "type": "boolean"
+                            },
+                            "subset": {
+                                "type": "boolean"
+                            }
+                        }
+                    },
+                    "Kids": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "Path": {
+                                    "type": "string"
+                                },
+                                "HasClip": {
+                                    "type": "boolean"
+                                },
+                                "Bounds": {
+                                    "type": "array"
+                                },
+                                "TextSize": {
+                                    "type": "number"
+                                },
+                                "Page": {
+                                    "type": "number"
+                                },
+                                "Text": {
+                                    "type": "string"
+                                },
+                                "attributes": {
+                                    "type": "object",
+                                    "properties": {
+                                        "Placement": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "CharBounds": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "array"
+                                    }
+                                },
+                                "Font": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {
+                                            "type": "string"
+                                        },
+                                        "weight": {
+                                            "type": "number"
+                                        },
+                                        "alt_family_name": {
+                                            "type": "string"
+                                        },
+                                        "monospaced": {
+                                            "type": "boolean"
+                                        },
+                                        "encoding": {
+                                            "type": "string"
+                                        },
+                                        "embedded": {
+                                            "type": "boolean"
+                                        },
+                                        "family_name": {
+                                            "type": "string"
+                                        },
+                                        "font_type": {
+                                            "type": "string"
+                                        },
+                                        "italic": {
+                                            "type": "boolean"
+                                        },
+                                        "subset": {
+                                            "type": "boolean"
+                                        }
+                                    }
+                                }
+                            },
+                            "required": []
+                        }
+                    },
+                    "Reference": {
+                        "type": "string"
+                    },
+                    "ClipBounds": {
+                        "type": "array"
+                    },
+                    "filePaths": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "required": []
+            }
+        },
+        "version": {
+            "type": "object",
+            "properties": {
+                "schema": {
+                    "type": "string"
+                },
+                "table_structure": {
+                    "type": "string"
+                },
+                "page_segmentation": {
+                    "type": "string"
+                },
+                "json_export": {
+                    "type": "string"
+                },
+                "structure": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
